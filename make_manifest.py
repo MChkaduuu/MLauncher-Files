@@ -40,12 +40,14 @@ for root, _, names in os.walk("files"):
             sys.exit(f"File name not allowed for a release asset: {rel}\n"
                      "Use only letters, digits, dot, dash and underscore (no spaces).")
         h = hashlib.sha256()
+        m = hashlib.md5()          # the launcher verifies files with MD5 (same as its own checks)
         with open(full, "rb") as fh:
             for chunk in iter(lambda: fh.read(1 << 20), b""):
                 h.update(chunk)
+                m.update(chunk)
         digest = h.hexdigest()
         old = by_path.get(rel)
-        if old and old["sha256"] == digest:
+        if old and old["sha256"] == digest and old.get("md5"):
             unchanged += 1
             continue
         shutil.copy2(full, os.path.join("release", asset))
@@ -54,6 +56,7 @@ for root, _, names in os.walk("files"):
             "path": rel,
             "url": f"https://github.com/{REPO}/releases/download/{tag}/{asset}",
             "sha256": digest,
+            "md5": m.hexdigest(),
             "size": os.path.getsize(full),
         }
 
