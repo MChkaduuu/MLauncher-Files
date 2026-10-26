@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": "modloader/Taurus/copcarsf.dff",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v1/modloader__Taurus__copcarsf.dff",
+      "sha256": "56de303cb7b13dc0c44a5212b760babdba64ed0fc242ff6b9ac592856a00318e",
+      "size": 7641992
+    },
+    {
+      "path": "modloader/Taurus/copcarsf.txd",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v1/modloader__Taurus__copcarsf.txd",
+      "sha256": "0a5bade896121ab5e3acbd1a7e3f360bb8571407ff580861b3ab7f8973c3e07d",
+      "size": 6557352
+    }
+  ]
+}
