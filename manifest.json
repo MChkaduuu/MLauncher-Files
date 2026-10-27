@@ -1,6 +1,153 @@
 {
-  "version": 2,
+  "version": 3,
   "files": [
+    {
+      "path": "modloader.asi",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader.asi",
+      "sha256": "64924c98bdd76b480db2a71a3cda7297620e78307f2cf3b9fe433d80807faa26",
+      "md5": "b3c16c1a48b8f88049bd03ef9f045dae",
+      "size": 673280
+    },
+    {
+      "path": "modloader/.data/LICENSE",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__LICENSE",
+      "sha256": "fdd80441e323a3ef4df8e47673b1e4cb4a90b54eb3ac0478dad1e69ab19c2d76",
+      "md5": "0a82d66c36e278ad32f8d325b568aeae",
+      "size": 1135
+    },
+    {
+      "path": "modloader/.data/config.ini.0",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__config.ini.0",
+      "sha256": "8d0ad9d6ba4362d270b0d8604d9865cee8ffa185415499327ddd075567a33ebf",
+      "md5": "ede1990af21a34b731b70ffbbb557328",
+      "size": 977
+    },
+    {
+      "path": "modloader/.data/licenses/boost.txt",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__licenses__boost.txt",
+      "sha256": "00ad852a3b23b6debd5f770b64214d84ac2bd3e9bc4d28180d246106984b388b",
+      "md5": "3a6f3f979cd75672c48f31414f1e4098",
+      "size": 1539
+    },
+    {
+      "path": "modloader/.data/licenses/cereal.txt",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__licenses__cereal.txt",
+      "sha256": "d193d8bde2c5fdc87c957841cb2c219faa9a139d510b14787da779a9b6432442",
+      "md5": "1754ea4b9777d3dda8a984009a53f59e",
+      "size": 1741
+    },
+    {
+      "path": "modloader/.data/licenses/tinympl.txt",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__licenses__tinympl.txt",
+      "sha256": "ff9638022eaa2119a4d5c973d4961b7e47de69c7247ba0aa539fa8efa1207f7a",
+      "md5": "c2c5ac036a57b327f26c57ab791c1996",
+      "size": 1564
+    },
+    {
+      "path": "modloader/.data/licenses/utf8-cpp.txt",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__licenses__utf8-cpp.txt",
+      "sha256": "c0aa239fbb34c870f73cff1ea03a170a5c25b8b2dbe5c068dda04a6a2086f49f",
+      "md5": "1e42b5da23ec4c81bfc11997a5df8746",
+      "size": 1524
+    },
+    {
+      "path": "modloader/.data/modloader.ini.0",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__modloader.ini.0",
+      "sha256": "4a4f8fc15a496a5e39a9bf3b617685a29e8c7b326a6565514b2d63e5effd8695",
+      "md5": "5d5baf5a2dbcf30118631ef073a433a4",
+      "size": 1228
+    },
+    {
+      "path": "modloader/.data/plugins.ini.0",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__plugins.ini.0",
+      "sha256": "2d534da354961d3c285e8cf11545476efd276ccb1d8b314f5f2659185f9c9bdb",
+      "md5": "40a77901283da69daf2b4ec5a9208e37",
+      "size": 592
+    },
+    {
+      "path": "modloader/.data/plugins/gta3/std.asi.dll",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__plugins__gta3__std.asi.dll",
+      "sha256": "f3217d82ac6f036ea6ad7d059cdd2e0b693210f44de55b62cd1c0285864d9c10",
+      "md5": "90b5cda743141a6219561dda659b32d4",
+      "size": 292864
+    },
+    {
+      "path": "modloader/.data/plugins/gta3/std.bank.dll",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__plugins__gta3__std.bank.dll",
+      "sha256": "cace891a95b87e4a0fb5c886acc69c992cc64fbed495140bf839e4e4655922b1",
+      "md5": "969898c627334f842d63580d026ec9d9",
+      "size": 269312
+    },
+    {
+      "path": "modloader/.data/plugins/gta3/std.data.dll",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__plugins__gta3__std.data.dll",
+      "sha256": "8f11cf187ee86e82b6de233ef29feb1d13e3049ce8960e7a2f7549c51774ba13",
+      "md5": "5163f3c367fe823a9063e49f05d170a5",
+      "size": 3436544
+    },
+    {
+      "path": "modloader/.data/plugins/gta3/std.dmaudio.dll",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__plugins__gta3__std.dmaudio.dll",
+      "sha256": "443356fb14a416f44771f82c1ac2a034ba5ebabb14225ce0355cb0f953141c2b",
+      "md5": "727b00da262dc8bb0e4174c4055e3222",
+      "size": 165376
+    },
+    {
+      "path": "modloader/.data/plugins/gta3/std.fx.dll",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__plugins__gta3__std.fx.dll",
+      "sha256": "49a178cf6250c7f3aced363438000f1db9d8a5787b55225896965bcb6c618f75",
+      "md5": "3c4cd91ce2e32f6f718a221c3704f123",
+      "size": 353280
+    },
+    {
+      "path": "modloader/.data/plugins/gta3/std.movies.dll",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__plugins__gta3__std.movies.dll",
+      "sha256": "92269636092b8af2c61dbdd9907f9e704745203f5c8b966fd3f2a141e5045e62",
+      "md5": "4451d491ff04ee755b07515dfc63fc0e",
+      "size": 157696
+    },
+    {
+      "path": "modloader/.data/plugins/gta3/std.scm.dll",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__plugins__gta3__std.scm.dll",
+      "sha256": "a24381e1c782f45f69e4bf53811cea22a0b021fe049a72ba106d0396fe4be1c9",
+      "md5": "cfd85484ebf1f548985d2181ae9ac1b0",
+      "size": 155648
+    },
+    {
+      "path": "modloader/.data/plugins/gta3/std.sprites.dll",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__plugins__gta3__std.sprites.dll",
+      "sha256": "dc4b337e01792abe63eda4c3a893dc38a83ab304f2730b98353e944557277893",
+      "md5": "de1842723b60de81fc7dc3dee4efb78b",
+      "size": 452096
+    },
+    {
+      "path": "modloader/.data/plugins/gta3/std.stream.dll",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__plugins__gta3__std.stream.dll",
+      "sha256": "b65afd93c4be2a3d6f4b996a1479a8107cff430938adf0e42336521b395ad196",
+      "md5": "780ab3b870596735bac260ec72231da5",
+      "size": 539136
+    },
+    {
+      "path": "modloader/.data/plugins/gta3/std.text.dll",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__plugins__gta3__std.text.dll",
+      "sha256": "b44987532eebb4f99e65ba4e5c776ee46a33c80ff8611902dbb7e4ecb5dc6cb8",
+      "md5": "9dec9bfbd144960dd88f6d65e874b02d",
+      "size": 187904
+    },
+    {
+      "path": "modloader/.data/plugins/gta3/std.tracks.dll",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__plugins__gta3__std.tracks.dll",
+      "sha256": "5d9080075b77d872146318573f97f1de757b32a54aa02600cb33e89c7ba5a052",
+      "md5": "1aa614c2a020f889ebb65ce2d63abf03",
+      "size": 190464
+    },
+    {
+      "path": "modloader/.data/text/1033/menu.fxt",
+      "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v3/modloader__.data__text__1033__menu.fxt",
+      "sha256": "89e38b1ce8136187631fe44f6e15af89a4de9d1a3b926d713c2aabc18319d561",
+      "md5": "d000579a6bf45a79a4777f2851804f3c",
+      "size": 1379
+    },
     {
       "path": "modloader/Taurus/copcarsf.dff",
       "url": "https://github.com/MChkaduuu/MLauncher-Files/releases/download/v2/modloader__Taurus__copcarsf.dff",
